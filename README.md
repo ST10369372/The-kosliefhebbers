@@ -9,3 +9,5 @@ A notable feature is the ability for users to add their own recipes or import re
 Additionally, we have introduced experimental features such as notification settings, which alert users about updates or changes, and theme customization, currently limited to light and dark modes. There is also a translator feature, albeit still in development.
 
 Finally, the app allows users to easily copy and save recipes, creating a personalized repository of culinary delights. All these enhancements ensure a seamless, user-friendly experience.
+
+youtube : https://youtube.com/shorts/GqE5_5Q3koc?feature=share
