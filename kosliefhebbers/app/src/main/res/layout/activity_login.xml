@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center">
+
+        <!-- App Title -->
+        <TextView
+            android:id="@+id/appTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kosliefhebbers"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:textColor="@color/button_green"
+            android:layout_marginBottom="32dp"
+            android:fontFamily="sans-serif-medium" />
+
+        <!-- Email Input -->
+        <EditText
+            android:id="@+id/emailEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:textSize="16sp"
+            android:textColor="@color/text_dark"
+            android:background="@drawable/rounded_edittext_background"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp"
+            android:inputType="textEmailAddress"
+            android:importantForAutofill="yes" />
+
+        <!-- Password Input -->
+        <EditText
+            android:id="@+id/passwordEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:textSize="16sp"
+            android:textColor="@color/text_dark"
+            android:background="@drawable/rounded_edittext_background"
+            android:padding="16dp"
+            android:layout_marginBottom="24dp"
+            android:inputType="textPassword"
+            android:importantForAutofill="yes" />
+
+        <!-- Login Button (normal Button, drawable background, theme disabled) -->
+        <Button
+            android:id="@+id/loginButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:textColor="@color/sage_border"
+            android:textSize="18sp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/rounded_card_background"
+            android:theme="@null" />
+
+        <!-- Register Button -->
+        <Button
+            android:id="@+id/registerButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:textColor="@color/sage_border"
+            android:textSize="18sp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/rounded_card_background"
+            android:theme="@null" />
+
+        <!-- Forgot Password -->
+        <TextView
+            android:id="@+id/forgotPasswordText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:minHeight="48dp"
+            android:text="Forgot Password?"
+            android:textColor="@color/button_green"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+</ScrollView>

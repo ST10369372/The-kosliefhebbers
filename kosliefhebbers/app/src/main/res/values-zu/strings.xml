@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">kosliefhebbers</string>
+    <string name="search_recipes">Sesha izindlela zokupheka…</string>
+    <string name="home">Ikhaya</string>
+    <string name="search">Sesha</string>
+    <string name="profile">Iphrofayela</string>
+    <string name="username">Igama lomsebenzisi</string>
+    <string name="email">I-imeyili</string>
+    <string name="password">Iphasiwedi</string>
+    <string name="confirm_password">Qinisekisa Iphasiwedi</string>
+    <string name="register">Bhalisa</string>
+    <string name="edit_profile">Hlela Iphrofayela</string>
+    <string name="add_recipe">Faka Iresiphi</string>
+    <string name="log_out">Phuma</string>
+    <string name="show_saved_recipes">Bonisa Izindlela Ezigcinwe</string>
+    <string name="list_of_saved_recipes">Uhlu lwezindlela ezigcinwe</string>
+    <string name="recipe_title">Isihloko SeResiphi</string>
+    <string name="recipe_details_will_appear_here">Imininingwane yeResiphi izovela lapha…</string>
+    <string name="recipe_image_desc" />
+</resources>

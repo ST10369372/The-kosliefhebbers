@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "177544238067",
+    "project_id": "kosliefhebbers-52c13",
+    "storage_bucket": "kosliefhebbers-52c13.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:177544238067:android:35f268e198317b676ef886",
+        "android_client_info": {
+          "package_name": "com.example.kosliefhebbers"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3Rrqhg0X4DzLrco2jdoc_7LRkrtd6s2s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

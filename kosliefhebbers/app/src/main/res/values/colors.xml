@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Solid button background -->
+    <color name="button_green">#17B81E</color> <!-- Example green, can adjust if needed -->
+
+    <!-- White for backgrounds -->
+    <color name="white">#FFFFFFFF</color>
+    <color name="text_dark">#333333</color> <!-- Add this -->
+    <!-- Lime green for strokes -->
+    <color name="lime_green">#A3D977</color>
+
+    <!-- Sage border color for default selector stroke -->
+    <color name="sage_border">#C4C4C4</color>
+</resources>

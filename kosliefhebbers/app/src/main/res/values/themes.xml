@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Light Theme -->
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme -->
+    <style name="Theme.Kosliefhebbers" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/button_green</item>
+        <item name="colorPrimaryVariant">@color/button_green</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+
+        <!-- Secondary brand color -->
+        <item name="colorSecondary">@color/lime_green</item>
+        <item name="colorOnSecondary">@android:color/white</item>
+
+        <!-- Status bar color -->
+        <item name="android:statusBarColor">@color/button_green</item>
+        <item name="android:navigationBarColor">@color/button_green</item>
+
+        <!-- Apply Material Components styles -->
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>
+
+

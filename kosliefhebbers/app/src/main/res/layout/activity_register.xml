@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/appTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kosliefhebbers"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:textColor="@color/button_green"
+            android:layout_marginBottom="32dp"
+            android:fontFamily="sans-serif-medium" />
+
+        <!-- Username input field -->
+        <EditText
+            android:id="@+id/usernameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="@string/username"
+            android:textSize="16sp"
+            android:textColor="@color/text_dark"
+            android:background="@drawable/rounded_edittext_background"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp"
+            android:importantForAutofill="yes" />
+
+        <!-- Email input field -->
+        <EditText
+            android:id="@+id/emailEditText"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="@string/email"
+            android:textSize="16sp"
+            android:textColor="@color/text_dark"
+            android:background="@drawable/rounded_edittext_background"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp"
+            android:inputType="textEmailAddress"
+            android:importantForAutofill="yes" />
+
+        <!-- Password input field -->
+        <EditText
+            android:id="@+id/passwordEditText"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:textSize="16sp"
+            android:textColor="@color/text_dark"
+            android:background="@drawable/rounded_edittext_background"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp"
+            android:importantForAutofill="yes" />
+
+        <!-- Confirm Password input field -->
+        <EditText
+            android:id="@+id/confirmPasswordEditText"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="@string/confirm_password"
+            android:inputType="textPassword"
+            android:textSize="16sp"
+            android:textColor="@color/text_dark"
+            android:background="@drawable/rounded_edittext_background"
+            android:padding="16dp"
+            android:layout_marginBottom="24dp"
+            android:importantForAutofill="yes" />
+
+        <!-- Register button -->
+        <Button
+            android:id="@+id/registerButton"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="@string/register"
+            android:textSize="18sp"
+            android:textColor="@color/text_dark"
+            android:background="@drawable/rounded_button"
+            android:gravity="center"
+            android:layout_marginTop="16dp"
+            android:theme="@null"
+            android:padding="0dp" />
+
+    </LinearLayout>
+</ScrollView>

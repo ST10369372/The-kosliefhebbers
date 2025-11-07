@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App theme (keep your existing theme too) -->
+    <style name="Base.Theme.Kosliefhebbers" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#CFE8CC</item> <!-- Light sage -->
+        <item name="colorPrimaryVariant">#B9E19D</item> <!-- Light lime -->
+        <item name="colorSecondary">#A3D977</item>
+        <item name="android:buttonStyle">@style/RoundedButton</item>
+        <item name="android:editTextStyle">@style/CustomEditText</item>
+    </style>
+
+    <!-- 🔘 Rounded button style -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:buttonStyle">@style/NormalButton</item>
+    </style>
+
+    <style name="NormalButton" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/rounded_card_background</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+
+
+    <!-- ✏️ EditText style -->
+    <style name="CustomEditText">
+        <item name="android:background">@drawable/rounded_edittext_background</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_margin">8dp</item>
+    </style>
+
+</resources>

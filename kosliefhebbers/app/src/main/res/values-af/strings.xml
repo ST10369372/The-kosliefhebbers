@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">kosliefhebbers</string>
+<string name="search_recipes">Soek resepte…</string>
+<string name="home">Tuis</string>
+<string name="search">Soek</string>
+<string name="profile">Profiel</string>
+<string name="username">Gebruikersnaam</string>
+<string name="email">E-pos</string>
+<string name="password">Wagwoord</string>
+<string name="confirm_password">Bevestig Wagwoord</string>
+<string name="register">Registreer</string>
+<string name="edit_profile">Wysig Profiel</string>
+<string name="add_recipe">Voeg Resep By</string>
+<string name="log_out">Teken Uit</string>
+<string name="show_saved_recipes">Wys Gestoor Resepte</string>
+<string name="list_of_saved_recipes">Lys van gestoor resepte</string>
+<string name="recipe_title">Resep Titel</string>
+<string name="recipe_details_will_appear_here">Resep besonderhede sal hier verskyn…</string>
+<string name="recipe_image_desc" />
+</resources>

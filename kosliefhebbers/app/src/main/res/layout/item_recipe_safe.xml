@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="@drawable/rounded_card_background"
+    android:layout_marginBottom="12dp">
+
+    <!-- Recipe Image -->
+    <ImageView
+        android:id="@+id/recipeImage"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:scaleType="centerCrop"
+        android:contentDescription="Recipe image"
+        android:background="@color/sage_border" />
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/recipeTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Recipe Title"
+        android:textSize="18sp"
+        android:textColor="@color/text_dark"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp" />
+
+    <!-- Summary -->
+    <TextView
+        android:id="@+id/recipeSummary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Recipe summary goes here..."
+        android:textSize="14sp"
+        android:textColor="@color/sage_border"
+        android:layout_marginTop="4dp" />
+
+    <!-- Save Button -->
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_gravity="end"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/rounded_button"
+        android:text="Save"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

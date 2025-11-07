@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5FAF2"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- Back button -->
+        <ImageButton
+            android:id="@+id/backButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@android:color/transparent"
+            android:src="@android:drawable/ic_menu_revert"
+
+            android:contentDescription="Back"
+            android:tint="#000000" />
+
+        <!-- Profile picture -->
+        <ImageView
+            android:id="@+id/profileImageView"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/profile_image_border"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/ic_launcher" />
+
+        <!-- Username -->
+        <TextView
+            android:id="@+id/usernameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="12dp"
+            android:text="User Name"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <!-- Email -->
+        <TextView
+            android:id="@+id/emailTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="user@email.com"
+            android:textColor="#666"
+            android:textSize="16sp"
+            android:layout_marginBottom="20dp" />
+
+        <!-- Buttons -->
+        <Button
+            android:id="@+id/editProfileButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Edit Profile"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#7FB77E" />
+
+        <Button
+            android:id="@+id/addRecipeButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Recipe"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#7FB77E" />
+
+        <Button
+            android:id="@+id/savedRecipesButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Saved Recipes"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#7FB77E" />
+
+        <Button
+            android:id="@+id/settingsButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Settings"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#7FB77E" />
+
+        <Button
+            android:id="@+id/logoutButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Log Out"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#E76161" />
+
+    </LinearLayout>
+</ScrollView>
