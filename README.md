@@ -11,4 +11,5 @@ Additionally, we have introduced experimental features such as notification sett
 Finally, the app allows users to easily copy and save recipes, creating a personalized repository of culinary delights. All these enhancements ensure a seamless, user-friendly experience.
 
 youtube : https://youtube.com/shorts/GqE5_5Q3koc?feature=share
+video altinte: https://drive.google.com/file/d/1GQk287QwbXuxKMB6nfJMNLsgt3SMPqEF/view?usp=sharing
 github link: https://github.com/ST10369372/The-kosliefhebbers.git
